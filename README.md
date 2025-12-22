@@ -1,5 +1,56 @@
-# Customer Churn Prediction Project Documentation
+## 📌 Project Overview
+Customer churn is a major challenge in the banking industry, as acquiring new customers is significantly more expensive than retaining existing ones. This project builds a **machine learning classification model** to predict which customers are most likely to churn. The goal is to enable proactive retention strategies and improve overall customer lifetime value.
 
+## 📂 Dataset
+The dataset contains customer-level information including:
+
+- **Demographics:** Age, gender, geography  
+- **Account Details:** Credit score, balance, tenure, number of products  
+- **Behavioral Indicators:** Activity status, credit card ownership  
+- **Target Variable:** `Exited` (1 = churned, 0 = retained)
+
+## **1. Approach**
+**Data Cleaning**  
+**Exploratory Data Analysis (EDA)** 
+**Data Preprocessing**  
+**Feature Selection**  
+**Model Training & Evaluation**  
+
+## **2. Models Used**
+- Random Forest Classifier  
+- Logistic Regression 
+- Support Vector Machine (SVM)
+- KNN  
+- Gradient Boosting Classifier
+
+- ## **3. Evaluation Metrics**
+- Confusion Matrix
+- Accuracy  
+- Precision  
+- Recall  
+- F1-score
+
+## **4. Model Optimization**
+- Feature Engineering
+- Hyperparameter tuning  
+- Handling class imbalance  
+- Tuned Gradient Boosting Classifier
+
+**Key Insight:**  
+Despite a slight decrease in overall accuracy, the tuned model identified **27 additional churners**, significantly improving churn detection.
+
+### ⚖️ Model Trade-Off Summary
+
+| Metric | Before | After |
+|------|--------|-------|
+| Accuracy | 87% | 86% |
+| Churn Recall | 49% | **56%** |
+| Churners Identified | 192 | **219** |
+
+### ✅ Final Conclusion
+The tuned Gradient Boosting model provides a **more business-effective solution**, prioritizing churn detection over marginal accuracy gains. This approach is better suited for real-world deployment where **missing churners is more costly than false positives**.
+
+# 📉 Customer Churn Prediction (Banking) Project Documentation
 ## **1. What problem does this solve?**
 This analysis develops a predictive model to identify bank customers who are likely to churn, enabling proactive intervention by the retention team.
 
