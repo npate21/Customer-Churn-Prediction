@@ -10,11 +10,11 @@ The dataset contains customer-level information including:
 - **Target Variable:** `Exited` (1 = churned, 0 = retained)
 
 ## **1. Approach**
-**Data Cleaning**  
-**Exploratory Data Analysis (EDA)** 
-**Data Preprocessing**  
-**Feature Selection**  
-**Model Training & Evaluation**  
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Preprocessing
+- Feature Selection
+- Model Training & Evaluation  
 
 ## **2. Models Used**
 - Random Forest Classifier  
@@ -23,7 +23,7 @@ The dataset contains customer-level information including:
 - KNN  
 - Gradient Boosting Classifier
 
-- ## **3. Evaluation Metrics**
+## **3. Evaluation Metrics**
 - Confusion Matrix
 - Accuracy  
 - Precision  
