@@ -1,5 +1,9 @@
 ## 📌 Project Overview
-Customer churn is a major challenge in the banking industry, as acquiring new customers is significantly more expensive than retaining existing ones. This project builds a **machine learning classification model** to predict which customers are most likely to churn. The goal is to enable proactive retention strategies and improve overall customer lifetime value.
+Customer churn is a major challenge in the banking industry, as acquiring new customers is significantly more expensive than retaining existing ones.
+
+This project develops a **machine learning classification model** to predict customers at risk of churn. In addition, exploratory analysis was conducted to examine churn patterns across customer demographics such as age and geography, helping identify high-risk groups and inform targeted retention strategies.
+
+The insights generated from this analysis support data-driven decision-making to improve customer lifetime value and reduce attrition.
 
 ## 📂 Dataset
 The dataset contains customer-level information including:
