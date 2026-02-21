@@ -65,7 +65,7 @@ The final model achieved:
 - **67% precision** for churners
 
 ## **4. What are the key findings?**
-- Customers aged **40–60** are significantly more likely to churn.
+- Customers aged **35-55** are significantly more likely to churn.
 - Certain geographical regions (e.g., **Germany**) exhibit higher churn rates.
 - Customers with **zero account balance** or **lower estimated salaries** show increased churn risk.
 - **Less active members** are considerably more prone to churn, emphasizing the importance of customer engagement.
